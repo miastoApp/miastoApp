@@ -1,0 +1,12 @@
+html { font-family: 'Montserrat', sans-serif; font-size: 62.5%; }
+
+.topbarheading { font-size: 2.4rem; color: #fff; } //h2
+.screenheadings { font-size: 1.9rem; color: #000; } //h3
+.btn { font-size: 1.4rem; color: #fff; } //button
+.poiname { font-size: 1.9rem; } // poi nazwy 
+.iconlabels { font-size: 1.8rem; } //etykiety do ikon
+.menu { font-size: 1.6rem; color: #fff; } //menu
+.poiaddress, .rankinfo, .asksuccess { font-size: 1.6rem; } //terms headings, action buttons (zaloguj, oznacz)
+
+p, table th, button, input[type="text"] { font-size: 1.4rem; } //text, buttons, inputs
+table td { font-size: 1.3rem; }
