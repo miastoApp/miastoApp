@@ -3,18 +3,16 @@
 */
 
 #hamburger {
-
-    position: absolute;
-    top:10px;
+    margin-top:10px;
+    position: relative;
     z-index: 2002;
     right: 10px;
     font-size: 12px;;
-    position: relative;
     display: block;
     height: 5em;
     width: 5em;
     /*background: #ed145b;*/
-    transition: 0.3s;
+    transition:all 0.3s;
 }
 
 #hamburger span {
@@ -26,7 +24,7 @@
     border: 0.25em solid white;
     border-radius: 3em;
     margin: -0.25em 0 0 -1.75em;
-    transition: 0.3s;
+    transition:all 0.3s;
 }
 
 #hamburger.open span {
@@ -45,7 +43,7 @@
     background: white;
     border-radius: 3em;
     margin: 0 0 0 -1.75em;
-    transition: 0.3s;
+    transition:all 0.3s;
 }
 
 #hamburger.open span:before,

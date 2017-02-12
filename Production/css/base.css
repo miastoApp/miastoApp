@@ -1,11 +1,5 @@
 /* FONTS */
 
-@import url('https://fonts.googleapis.com/css?family=Montserrat');
-@import url('hamburger/hamburger.css');
-@import url('main-template/main.css');
-@import url('reset.css');
-@import url("wall-screen/wall-screen.css");
-@import url('../Production/css/menu.css');
 
 
 
@@ -27,7 +21,7 @@ header {
     line-height: 8rem;
     color: #fff;
     text-align: center;
-    background: url('img/headerbgd.jpg') top center no-repeat;
+    background: url('../img/headerbgd.jpg') top center no-repeat;
 }
 
 h2 {

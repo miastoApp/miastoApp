@@ -1,0 +1,89 @@
+
+.menu-wrapper{
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+	position: absolute;
+	top:0;
+}
+
+.menu {
+	background-color: #2f7131;
+	color: white;
+	display: flex;
+	flex-direction: column;
+	height: 667px;
+	justify-content: flex-start;
+	width: 291.5px;
+	position: absolute;
+	right: -291.5px;
+	top:0;
+	transition: all 0.3s;
+}
+
+.menu.open {
+	right: 0;
+}
+
+
+
+.menu-header {
+	display: flex;
+	flex-direction: row;
+	margin-top: 2.4rem;
+}
+
+.user-icon {
+	flex-grow: 1;
+}
+
+.user-data {
+	align-items: center;
+	display: flex;
+	flex-grow: 2;
+	flex-direction: column;
+   justify-content: center;
+}
+
+.user-data .user-name {
+	font-size: 1.6rem;
+	font-weight: 200;
+}
+
+.user-data .user-score {
+	font-size: 1.9rem;
+	font-weight: 500;
+}
+
+.hambureger-menu {
+	flex-grow: 1;
+}
+
+.menu-list {
+	display: flex;
+	flex-direction: row-reverse;
+	margin-top: 4rem;
+	margin-right: 4rem;
+}
+
+.menu-list ul {
+	text-align: right;
+}
+
+.menu-list ul li {
+	font-size: 1.9rem;
+	line-height: 2.921;
+}
+
+.menu-footer {
+	background-color:  #357f38; 
+	display: flex;
+   align-items: center;
+   justify-content: center;
+	height: 40px;
+	margin-top: 26em;
+}
+
+#logout {
+	font-size: 1.9rem;
+}
