@@ -1,12 +1,74 @@
-html { font-family: 'Montserrat', sans-serif; font-size: 62.5%; }
+html {
+	font-family: 'Montserrat', sans-serif; font-size: 62.5%;
+}
 
-.topbarheading { font-size: 2.4rem; color: #fff; } //h2
-.screenheadings { font-size: 1.9rem; color: #000; } //h3
-.btn { font-size: 1.4rem; color: #fff; } //button
-.poiname { font-size: 1.9rem; } // poi nazwy 
-.iconlabels { font-size: 1.8rem; } //etykiety do ikon
-.menu { font-size: 1.6rem; color: #fff; } //menu
-.poiaddress, .rankinfo, .asksuccess { font-size: 1.6rem; } //terms headings, action buttons (zaloguj, oznacz)
+.app {
+	position: relative;
+	height: 100vh;
+	max-width: 375px;
+	background-color: #fbfbfb;
+}
 
-p, table th, button, input[type="text"] { font-size: 1.4rem; } //text, buttons, inputs
-table td { font-size: 1.3rem; }
+header {
+	width: 100%;
+	height: 80px;
+	line-height: 8rem;
+	color: #fff;
+	text-align: center;
+	background: url('../img/headerbgd.jpg') top center no-repeat;
+	background-size: no-repeat;
+}
+
+h2 {
+	font-size: 2.4rem;
+}
+
+.topbarheading {
+	font-size: 2.4rem; color: #fff;
+} 
+
+.screenheading {
+	font-size: 1.9rem;
+}
+
+
+.btn {
+	width: 100%;
+	padding: 20px 0;
+	color: #fff;
+	text-transform: uppercase;
+	border: none;
+	border-radius: 5px;
+	background-color:  #00c853;
+	box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.35);
+}
+
+.btn i {
+	margin-left: 10px;
+	font-size: 2rem;
+}
+
+
+.poiname {
+	font-size: 1.9rem;
+} 
+
+.iconlabels {
+	font-size: 1.8rem;
+} 
+
+.menu {
+	font-size: 1.6rem;
+} 
+
+.poiaddress, .rankinfo, .asksuccess {
+	font-size: 1.6rem;
+}
+
+p, table th, button, input[type="text"] {
+	font-size: 1.4rem;
+}
+
+table td {
+	font-size: 1.3rem;
+}

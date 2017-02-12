@@ -4,9 +4,31 @@
 	<meta charset="UTF-8">
 	<title>Main</title>
 	<link rel="stylesheet" href="../css/reset.css">
+	<link rel="stylesheet" href="../css/base.css">
 	<link rel="stylesheet" href="main.css">
 </head>
 <body>
-	test
+	<div class="app">
+		<header>
+			<h2>Title</h2>
+		</header>
+		<div class="content">
+			<div class="nav">
+				<div class="user">
+					<img src="../img/user.svg">
+					<button class="btn btn-main">zaloguj</button>
+				</div>
+
+				<div class="map">
+					<img src="../img/map.svg">
+					<button class="btn btn-main">oznacz</button>
+				</div>
+			</div>
+			<div class="search-bar">
+					<input class="input-search" type="text" name="search" placeholder="Szukaj...">
+					<input class="btn btn-main btn-search" type="submit" name="search" value="?">
+				</div>
+		</div>
+	</div>
 </body>
 </html>
