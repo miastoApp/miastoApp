@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>MiastoAPP</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="app screen">
+    <header class="top-bar" class="menu-green">
+      <button>Back</button>
+      <h2>Informacje o:</h2>
+      <button id="hamburger">
+        <span></span>
+      </button>
+    </header>
+    <div class="menu-wrapper">
+      <div class="menu" id="menu">
+        <div class="menu-header">
+          <img class="user-icon" src="img/ic_account_circle_white_24px.svg" alt="">
+          <div class="user-data">
+            <span class="user-name">Johny Cash</span>
+            <span class="user-score">3756 pkt</span>
+          </div>
+          <div class="hambureger-menu" ></div>
+        </div>
+        <div class="menu-list">
+          <div>
+            <ul>
+              <li>Mapa</li>
+              <li>Mój Profil</li>
+              <li>Ranking</li>
+              <li>Ustawienia</li>
+              <li>Informacje</li>
+            </ul>
+          </div>
+        </div>
+        <div class="menu-footer">
+          <span id="logout">Wyloguj</span>
+        </div>
+      </div>
+    </div>
+    <section>
+        
+        <div class="placescreen"></div>
+        <div class="container">
+          <div class="poigeneral">
+            <hgroup class="poiinfo">
+              <h3 class="screenheading">Bankomat ING</h3>
+              <h4 class="poiaddress">ul. Józefa Piłsudskiego 2<br />Kraków</h4>
+            </hgroup>
+            <div class="poistatus">
+              <div class="icon">
+                <i class="fa fa-smile-o"></i>
+                <p>75%</p>
+              </div>
+              <div class="icon">
+                <i class="fa fa-frown-o"></i>
+                <p>25%</p>
+              </div>
+            </div>
+            <div class="poiicons">
+              <div class="icon">
+                <i class="fa fa-map-marker"></i>
+                <p>1.1 km</p>
+              </div>
+              <div class="icon">
+                <i class="fa fa-clock-o"></i>
+                <p>6:00 - 22:00</p>
+              </div>
+              <div class="icon">
+                <i class="fa fa-blind"></i>
+                <p>8 min</p>
+              </div>
+            </div>
+            <button class="btn">nawiguj<i class="fa fa-location-arrow"></i></button>
+          </div>
+        </div>
+      </div>
+
+  </section>
+  <script src="scripts/hamburger.js"></script>
+
+</body>
+</html>
