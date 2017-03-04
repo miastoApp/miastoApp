@@ -3,6 +3,7 @@
 
   var hamburger = document.querySelector('#hamburger');
   var menu = document.querySelector('#menu');
+  var menuWrapper = document.querySelector('.menu-wrapper');
 
   function toggleClass(elems, className) {
     elems.map(function (elem) {
@@ -14,7 +15,7 @@
   hamburger.addEventListener('click', function(e){
     "use strict";
     e.preventDefault();
-    toggleClass([hamburger, menu], 'open');
+    toggleClass([hamburger, menu, menuWrapper], 'open');
   });
 
 

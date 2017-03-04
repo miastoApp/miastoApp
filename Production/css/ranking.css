@@ -157,3 +157,11 @@
 
 }
 
+button a {
+    text-decoration: none;
+    color: inherit;
+    font-style: inherit;
+    font-size: inherit;
+    font-family:inherit;
+}
+

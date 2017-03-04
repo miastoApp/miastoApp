@@ -3,11 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <title>MiastoAPP</title>
-  <link rel="stylesheet" href="../Michal/styles.css">
+  <link rel="stylesheet" href="styles.css">
 </head>
-<body class="app">
+<body class="app no-bg">
   <header class="top-bar" class="menu-green">
-    <button>Back</button>
+    <button><a href="#" id="backButton">Back</a></button>
     <h2>RANKING</h2>
     <button id="hamburger">
       <span></span>
@@ -16,7 +16,7 @@
   <div class="menu-wrapper">
     <div class="menu" id="menu">
       <div class="menu-header">
-        <img class="user-icon" src="../img/ic_account_circle_white_24px.svg" alt="">
+        <img class="user-icon" src="img/ic_account_circle_white_24px.svg" alt="">
         <div class="user-data">
           <span class="user-name">Johny Cash</span>
           <span class="user-score">3756 pkt</span>
@@ -26,7 +26,7 @@
       <div class="menu-list">
         <div>
           <ul>
-            <li>Mapa</li>
+            <li><a href="main.html">Mapa</a></li>
             <li>Mój Profil</li>
             <li>Ranking</li>
             <li>Ustawienia</li>
@@ -100,7 +100,7 @@
 
 
   </section>
-  <script src="../Michal/scripts/hamburger.js"></script>
-
+  <script src="scripts/hamburger.js"></script>
+  <script src="scripts/backButton.js"></script>
 </body>
 </html>

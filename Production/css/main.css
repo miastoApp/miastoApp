@@ -10,6 +10,10 @@ body {
 	width: 375px;
 }
 
+.app.no-bg {
+	background: none;
+}
+
 .header {
 	background: red;
 	height: 8.2rem;
