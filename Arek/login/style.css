@@ -1,0 +1,29 @@
+.app.screen {
+	display: flex;
+}
+
+.login {
+	padding: 20px 0 10px;
+}
+
+.login .container {
+	height: 100%;
+}
+
+.login .unlogged {
+	width: 100%;
+	margin: 10rem 0 2rem;
+	font-size: 20rem;
+	color: #c3c3c3;
+	text-align: center;
+}
+
+.login h2 {
+	width: 100%;
+	font-weight: 600;
+	text-align: center;
+}
+
+.login p {
+	margin: 4rem 0;
+}

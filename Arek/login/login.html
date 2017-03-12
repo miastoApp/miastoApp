@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>MiastoAPP</title>
+  <link rel="stylesheet" href="../../Production/styles.css">
+</head>
+<body>
+  <div class="app screen">
+    <header class="menu-green top-bar">
+      <button>Back</button>
+      <h2>MiastoApp</h2>
+      <button id="hamburger">
+        <span></span>
+      </button>
+    </header>
+    <div class="menu-wrapper">
+      <div class="menu" id="menu">
+        <div class="menu-header">
+        <img class="user-icon" src="img/ic_account_circle_white_24px.svg" alt="">
+          <div class="user-data">
+            <span class="user-name">Johny Cash</span>
+            <span class="user-score">3756 pkt</span>
+          </div>
+          <div class="hambureger-menu" ></div>
+        </div>
+        <div class="menu-list">
+          <div>
+            <ul>
+              <li>Mapa</li>
+              <li>Mój Profil</li>
+              <li><a href="ranking.html">Ranking</a></li>
+              <li>Ustawienia</li>
+              <li>Informacje</li>
+            </ul>
+          </div>
+        </div>
+        <div class="menu-footer">
+          <span id="logout">Wyloguj</span>
+        </div>
+      </div>
+    </div>
+    <section class="login">
+        
+      <div class="container">
+        <i class="fa fa-user-circle-o unlogged" aria-hidden="true"></i>
+        <h2>Niezalogowany</h2>
+        <p>Logując się, zachowasz swoje ustawienia dotyczące aplikacji, oraz informacje i uzyskasz dodatkowe funkcjonalności społeczościowe.</p>
+        <div class="btns">
+          <button class="btn"><i class="fa fa-facebook" aria-hidden="true"></i>zaloguj się z facebook</button>
+          <button class="btn"><i class="fa fa-google" aria-hidden="true"></i>zaloguj się z google</button>
+        </div>
+    </section>
+  </div>
+  <script src="scripts/hamburger.js"></script>
+
+</body>
+</html>

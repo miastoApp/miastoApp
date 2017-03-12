@@ -1,8 +1,5 @@
 /* FONTS */
 
-
-
-
 html {
     font-family: 'Montserrat', sans-serif; font-size: 62.5%;
 }
@@ -13,10 +10,9 @@ body {
 
 .app {
     position: relative;
-    height: 100vh;
-    max-width: 375px;
+    height: 667px;
+    width: 375px;
     background-color: #fbfbfb;
-
 }
 
 header {
@@ -29,39 +25,71 @@ header {
 }
 
 h2 {
-    font-size: 2.4rem;
+  font-size: 2.4rem;
+}
+
+h3 {
+  font-size: 1.9rem;
+}
+
+p {
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+  color: #7f7f7f;
+  margin: .5rem 0 1.5rem;
+}
+
+table th, button, input[type="text"] {
+  font-size: 1.4rem;
+}
+
+table td {
+  font-size: 1.3rem;
 }
 
 .topbarheading {
-    font-size: 2.4rem; color: #fff;
+    font-size: 2.4rem;
+    color: #fff;
 }
 
 .screenheading {
     font-size: 1.9rem;
 }
-  .btn {
-      font-size: 1.4rem; color: #fff;
-  }
-  .poiname {
-      font-size: 1.9rem;
-  }
-  .iconlabels {
-      font-size: 1.8rem;
-  }
-  .menu {
-      font-size: 1.6rem;
-  }
-.poiaddress, .rankinfo, .asksuccess {
-    font-size: 1.6rem;
+  
+.btn {
+  font-size: 1.4rem;
+  color: #fff;
 }
-p, table th, button, input[type="text"] {
-      font-size: 1.4rem;
-  }
-  table td {
-      font-size: 1.3rem;
-  }
 
+.btns {
+  width: 100%;
+  align-self: flex-end;
+}
 
+.btn i {
+  font-size: 1.4rem;
+  margin-right: 10px;
+}
+
+.poiname {
+  font-size: 1.9rem;
+}
+  
+.iconlabels {
+  font-size: 1.8rem;
+}
+  
+.menu {
+  font-size: 1.6rem;
+}
+
+.poiaddress, .rankinfo, .asksuccess {
+  font-size: 1.6rem;
+}
+
+header button:first-child {
+    margin-left: 20px;
+}
 
 
 
