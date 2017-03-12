@@ -1,0 +1,76 @@
+/* FONTS */
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('hamburger/hamburger.css');
+@import url('main-template/main.css');
+@import url('reset.css');
+@import url("wall-screen/wall-screen.css");
+@import url('../Production/css/menu.css');
+
+
+
+html {
+    font-family: 'Montserrat', sans-serif; font-size: 62.5%;
+}
+
+.app {
+    position: relative;
+    height: 100vh;
+    max-width: 375px;
+    background-color: #fbfbfb;
+
+}
+
+header {
+    width: 100%;
+    height: 80px;
+    line-height: 8rem;
+    color: #fff;
+    text-align: center;
+    background: url('img/headerbgd.jpg') top center no-repeat;
+}
+
+h2 {
+    font-size: 2.4rem;
+}
+
+.topbarheading {
+    font-size: 2.4rem; color: #fff;
+}
+
+.screenheading {
+    font-size: 1.9rem;
+}
+  .btn {
+      font-size: 1.4rem; color: #fff;
+  }
+  .poiname {
+      font-size: 1.9rem;
+  }
+  .iconlabels {
+      font-size: 1.8rem;
+  }
+  .menu {
+      font-size: 1.6rem;
+  }
+.poiaddress, .rankinfo, .asksuccess {
+    font-size: 1.6rem;
+}
+p, table th, button, input[type="text"] {
+      font-size: 1.4rem;
+  }
+  table td {
+      font-size: 1.3rem;
+  }
+
+
+
+
+
+
+
+
+
+
+
+

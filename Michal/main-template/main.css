@@ -1,0 +1,14 @@
+body {
+    height: 667px;
+    width: 375px;
+}
+
+.top-bar {
+    width: 375px;
+    height: 82px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+

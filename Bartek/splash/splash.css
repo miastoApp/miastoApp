@@ -1,0 +1,13 @@
+.app {
+	background: white url('../img/Background.jpg');
+	display: flex;
+	align-items: center;
+   justify-content: center;
+	background-size: cover;
+	height: 667px;
+	width: 375px;
+}
+
+.app img {
+	max-width: 90%;
+}
