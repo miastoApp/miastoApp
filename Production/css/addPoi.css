@@ -1,0 +1,61 @@
+.block-input, .block-hr {
+  margin-top:10px;
+}
+
+.block-input .block-input-h{
+  font-size:14px;
+  font-weight:bold; 
+}
+
+.block-input .block-content {
+  position: relative;
+}
+
+.block-input .block-content .input-label {
+  position: absolute;
+  left: 5px;
+}
+
+.block-input .block-content .input:focus+.input-label {
+  opacity: 0;
+}
+
+.block-input .block-content .input:valid+.input-label {
+  opacity: 0;
+}
+
+.block-hr  .block-hr-h {
+  font-size:14px;
+  font-weight:bold; 
+}
+
+.block-hr .block-content {
+  margin-top: 10px;
+  width:90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;  
+}
+
+.block-hr .block-content .day {
+  font-size: 12px;
+  text-align: center;
+  width:20%
+}
+
+.block-hr .block-content .hours {
+  margin-top:2px; 
+  display: flex;
+  border-top: 1px solid #CCCCCC;
+  border-bottom: 1px solid #CCCCCC;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  
+ }
+
+ .block-hr .block-content .hours-bar {
+   width: 1px;
+   background-color: #CCCCCC;
+   margin: 0 5px;
+ }
