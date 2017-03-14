@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>MiastoAPP</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="app screen">
+    <header class="menu-green top-bar">
+      <button>Back</button>
+      <h2>MiastoApp</h2>
+      <button id="hamburger">
+        <span></span>
+      </button>
+    </header>
+    <div class="menu-wrapper">
+      <div class="menu" id="menu">
+        <div class="menu-header">
+        <img class="user-icon" src="img/ic_account_circle_white_24px.svg" alt="">
+          <div class="user-data">
+            <span class="user-name">Johny Cash</span>
+            <span class="user-score">3756 pkt</span>
+          </div>
+          <div class="hambureger-menu" ></div>
+        </div>
+        <div class="menu-list">
+          <div>
+            <ul>
+              <li>Mapa</li>
+              <li>Mój Profil</li>
+              <li><a href="ranking.html">Ranking</a></li>
+              <li>Ustawienia</li>
+              <li>Informacje</li>
+            </ul>
+          </div>
+        </div>
+        <div class="menu-footer">
+          <span id="logout">Wyloguj</span>
+        </div>
+      </div>
+    </div>
+    <section class="login logged">
+        
+      <div class="container">
+        <i class="fa fa-user-circle-o unlogged" aria-hidden="true"></i>
+        <h2>JohnyCash</h2>
+        <h3>Twoja ranga:</h3>
+        <div class="rank">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-half-o"></i>
+          <i class="fa fa-star-o"></i>
+        </div>
+        <progress value="75" max="100"></progress>
+        <p>800 pts / 342 pos.</p>
+        <div class="btns">
+          <button class="btn">zobacz tablicę wyników</button>
+        </div>
+    </section>
+  </div>
+  <script src="scripts/hamburger.js"></script>
+
+</body>
+</html>
