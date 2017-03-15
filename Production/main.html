@@ -8,7 +8,7 @@
 <body>
   <div class="app">
     <header class="menu-green top-bar">
-      <button>Back</button>
+      <button><a href="#" id="backButton">Back</a></button>
       <h2>MiastoApp</h2>
       <button id="hamburger">
         <span></span>
@@ -27,16 +27,16 @@
         <div class="menu-list">
           <div>
             <ul>
-              <li>Mapa</li>
-              <li>Mój Profil</li>
+              <li><a href="main.html">Mapa</a></li>
+              <li><a href="logged.html">Mój Profil</a></li>
               <li><a href="ranking.html">Ranking</a></li>
               <li>Ustawienia</li>
-              <li>Informacje</li>
+              <li><a href="terms.html">Informacje</a></li>
             </ul>
           </div>
         </div>
         <div class="menu-footer">
-          <span id="logout">Wyloguj</span>
+          <span id="logout" onclick="location.href='login.html'">Wyloguj</span>
         </div>
       </div>
     </div>
@@ -45,22 +45,25 @@
         <div class="nav">
           <div class="user">
             <img src="img/user.svg">
-            <button class="btn btn-main">zaloguj</button>
+            <button class="btn btn-main" onclick="location.href='login.html'">zaloguj</button>
           </div>
 
           <div class="map">
             <img src="img/map.svg">
-            <button class="btn btn-main">oznacz</button>
+            <button class="btn btn-main" onclick="location.href='addPoi.html'">oznacz</button>
           </div>
         </div>
+
+        <i class="fa fa-location-arrow currentLoc"></i>
         <div class="search-bar">
           <input class="input-search" type="text" name="search" placeholder="Szukaj...">
-          <input class="btn btn-main btn-search" type="submit" name="search" value="?">
+          <input class="btn btn-main btn-search" type="submit" name="search" value="?" onclick="location.href='poiinfo.html'">
         </div>
       </div>
 
     </section>
     <script src="scripts/hamburger.js"></script>
+    <script src="scripts/backButton.js"></script>
   </div>
 </body>
 </html>

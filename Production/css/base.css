@@ -55,11 +55,6 @@ table td {
 .screenheading {
     font-size: 1.9rem;
 }
-  
-.btn {
-  font-size: 1.4rem;
-  color: #fff;
-}
 
 .btns {
   width: 100%;
@@ -93,6 +88,8 @@ header button:first-child {
 
 .btn {
   align-self: flex-end;
+  font-size: 1.4rem;
+  color: #fff;
   width: 100%;
   margin-bottom: 10px;
   padding: 20px 0;

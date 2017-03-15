@@ -7,7 +7,7 @@
 </head>
 <body class="app no-bg">
   <header class="top-bar" class="menu-green">
-    <button>Back</button>
+    <button><a href="#" id="backButton">Back</a></button>
     <h2>DODAJ POI</h2>
     <button id="hamburger">
       <span></span>
@@ -26,11 +26,11 @@
       <div class="menu-list">
         <div>
           <ul>
-            <li>Mapa</li>
-            <li>Mój Profil</li>
+            <li><a href="main.html">Mapa</a></li>
+            <li><a href="logged.html">Mój Profil</a></li>
             <li><a href="ranking.html">Ranking</a></li>
             <li>Ustawienia</li>
-            <li>Informacje</li>
+            <li><a href="terms.html">Informacje</a></li>
           </ul>
         </div>
       </div>
@@ -341,11 +341,11 @@
       </div>
     </section>
     <div class="block-button btns">
-      <button class="btn">Dodaj Punkt</button>
+      <button class="btn" onclick="location.href='main.html'">Dodaj Punkt</button>
       <!--<input type="button" class="block-button-add" value="Dodaj punkt"></input>-->
     </div>
   </section>
   <script src="scripts/hamburger.js"></script>
-
+  <script src="scripts/backButton.js"></script>
 </body>
 </html>

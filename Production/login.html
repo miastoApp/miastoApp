@@ -8,7 +8,7 @@
 <body>
   <div class="app screen">
     <header class="menu-green top-bar">
-      <button>Back</button>
+      <button><a href="#" id="backButton">Back</a></button>
       <h2>MiastoApp</h2>
       <button id="hamburger">
         <span></span>
@@ -27,11 +27,11 @@
         <div class="menu-list">
           <div>
             <ul>
-              <li>Mapa</li>
-              <li>Mój Profil</li>
+              <li><a href="main.html">Mapa</a></li>
+              <li><a href="logged.html">Mój Profil</a></li>
               <li><a href="ranking.html">Ranking</a></li>
               <li>Ustawienia</li>
-              <li>Informacje</li>
+              <li><a href="terms.html">Informacje</a></li>
             </ul>
           </div>
         </div>
@@ -47,12 +47,12 @@
         <h2>Niezalogowany</h2>
         <p>Logując się, zachowasz swoje ustawienia dotyczące aplikacji, oraz informacje i uzyskasz dodatkowe funkcjonalności społeczościowe.</p>
         <div class="btns">
-          <button class="btn"><i class="fa fa-facebook" aria-hidden="true"></i>zaloguj się z facebook</button>
-          <button class="btn"><i class="fa fa-google" aria-hidden="true"></i>zaloguj się z google</button>
+          <button class="btn" onclick="location.href='logged.html'"><i class="fa fa-facebook" aria-hidden="true"></i>zaloguj się z facebook</button>
+          <button class="btn" onclick="location.href='logged.html'"><i class="fa fa-google" aria-hidden="true"></i>zaloguj się z google</button>
         </div>
     </section>
   </div>
   <script src="scripts/hamburger.js"></script>
-
+  <script src="scripts/backButton.js"></script>
 </body>
 </html>

@@ -61,7 +61,7 @@ input[type="submit"] {
 }
 
 input.input-search {
-	border: 2px solid #48ae50;;
+	border: 2px solid #48ae50;
 	line-height: 3.4rem;
 	box-shadow: 0rem .3rem .5rem 0rem rgba(0, 0, 0, 0.35);
 	padding-left: 1rem;
@@ -73,4 +73,14 @@ input.btn-search {
 	border-radius: 0 .5rem .5rem 0;
 	border: 2px solid #48ae50;;
 	box-shadow: none;
+}
+
+i.currentLoc {
+	position: absolute;
+	top: 50%;
+	left: calc(50% - 25px);
+	width: 50px;
+	text-align: center;
+	font-size: 7rem;
+	color: #48ae50;
 }
