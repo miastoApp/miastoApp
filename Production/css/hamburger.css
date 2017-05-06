@@ -4,8 +4,8 @@
 
 #hamburger {
     margin-top:10px;
-    position: relative;
-    z-index: 122002;
+    position: absolute;
+    z-index: 1700;
     right: 10px;
     font-size: 12px;;
     display: block;
@@ -25,16 +25,12 @@
     border-radius: 3em;
     margin: -0.25em 0 0 -1.75em;
     transition:all 0.3s;
-    
-    z-index: 122002;
 }
 
 #hamburger.open span {
     height: 3em;
     margin: -1.875em 0 0 -1.875em;
     border-width: 0.375em;
-    position: relative;
-    z-index: 122002;
 }
 
 #hamburger span:before,
@@ -48,8 +44,6 @@
     border-radius: 3em;
     margin: 0 0 0 -1.75em;
     transition:all 0.3s;
-
-    z-index: 122002;
 }
 
 #hamburger.open span:before,
@@ -57,31 +51,21 @@
     top: 1.1875em;
     width: 2em;
     margin: 0 0 0 -1em;
-
-    z-index: 12200299999;
 }
 
 #hamburger span:before {
     top: -1.125em;
-
-    z-index: 122002;
 }
 
 #hamburger.open span:before {
     transform: rotate(-135deg);
-
-    z-index: 122002;
 }
 
 #hamburger span:after {
     top: 0.625em;
-
-    z-index: 122002;
 }
 
 #hamburger.open span:after {
     transform: rotate(135deg);
-
-    z-index: 122002;
 }
 
