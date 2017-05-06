@@ -5,102 +5,104 @@
   <title>MiastoAPP</title>
   <link rel="stylesheet" href="styles.css">
 </head>
-<body class="app no-bg">
-  <header class="top-bar" class="menu-green">
-    <button><a href="#" id="backButton">Back</a></button>
-    <h2>RANKING</h2>
-    <button id="hamburger">
-      <span></span>
-    </button>
-  </header>
-  <div class="menu-wrapper">
-    <div class="menu" id="menu">
-      <div class="menu-header">
-        <img class="user-icon" src="img/ic_account_circle_white_24px.svg" alt="">
-        <div class="user-data">
-          <span class="user-name">Johny Cash</span>
-          <span class="user-score">3756 pkt</span>
+<body>
+  <div class="app no-bg">
+    <header class="top-bar" class="menu-green">
+      <button><a href="#" id="backButton">Back</a></button>
+      <h2>RANKING</h2>
+      <button id="hamburger">
+        <span></span>
+      </button>
+    </header>
+    <div class="menu-wrapper">
+      <div class="menu" id="menu">
+        <div class="menu-header">
+          <img class="user-icon" src="img/ic_account_circle_white_24px.svg" alt="">
+          <div class="user-data">
+            <span class="user-name">Johny Cash</span>
+            <span class="user-score">3756 pkt</span>
+          </div>
+          <div class="hambureger-menu" ></div>
         </div>
-        <div class="hambureger-menu" ></div>
-      </div>
-      <div class="menu-list">
-        <div>
-          <ul>
-            <li><a href="main.html">Mapa</a></li>
-            <li><a href="logged.html">Mój Profil</a></li>
-            <li><a href="ranking.html">Ranking</a></li>
-            <li>Ustawienia</li>
-            <li><a href="terms.html">Informacje</a></li>
-          </ul>
+        <div class="menu-list">
+          <div>
+            <ul>
+              <li><a href="main.html">Mapa</a></li>
+              <li><a href="logged.html">Mój Profil</a></li>
+              <li><a href="ranking.html">Ranking</a></li>
+              <li>Ustawienia</li>
+              <li><a href="terms.html">Informacje</a></li>
+            </ul>
+          </div>
         </div>
-      </div>
-      <div class="menu-footer">
-        <span id="logout">Wyloguj</span>
+        <div class="menu-footer">
+          <span id="logout">Wyloguj</span>
+        </div>
       </div>
     </div>
+    <section class="wall-wrapper">
+      <div class="wall-znajomi selected header-left">ZNAJOMI</div>
+      <div class="wall-wszyscy header-right">WSZYSCY</div>
+
+      <div class="wall-bar selected bar-left"></div>
+      <div class="wall-bar bar-right"></div>
+
+      <div class="wall-table-header table-header-1 ">Pozycja</div>
+      <div class="wall-table-header table-header-2 ">Nick</div>
+      <div class="wall-table-header table-header-3 ">Punkty</div>
+
+      <div class="wall-table-row table-row-1 item1">1</div>
+      <div class="wall-table-row table-row-2 item1">random001</div>
+      <div class="wall-table-row table-row-3 item1">1090</div>
+
+      <div class="wall-table-row table-row-1 item2">2</div>
+      <div class="wall-table-row table-row-2 item2">random002</div>
+      <div class="wall-table-row table-row-3 item2">100</div>
+
+      <div class="wall-table-row table-row-1 item3">3</div>
+      <div class="wall-table-row table-row-2 item3">random003</div>
+      <div class="wall-table-row table-row-3 item3">10310</div>
+
+      <div class="wall-table-row table-row-1 item4">4</div>
+      <div class="wall-table-row table-row-2 item4">random004</div>
+      <div class="wall-table-row table-row-3 item4">100</div>
+
+      <div class="wall-table-row table-row-1 item5">5</div>
+      <div class="wall-table-row table-row-2 item5">random005</div>
+      <div class="wall-table-row table-row-3 item5">100</div>
+
+      <div class="wall-table-row table-row-1 item6">6</div>
+      <div class="wall-table-row table-row-2 item6">random006</div>
+      <div class="wall-table-row table-row-3 item6">10554540</div>
+
+      <div class="wall-table-row table-row-1 item7">7</div>
+      <div class="wall-table-row table-row-2 item7">random007</div>
+      <div class="wall-table-row table-row-3 item7">106650</div>
+
+      <div class="wall-table-row table-row-1 item8">8</div>
+      <div class="wall-table-row table-row-2 item8">random008</div>
+      <div class="wall-table-row table-row-3 item8">1655400</div>
+
+      <div class="wall-table-row table-row-1 item9">9</div>
+      <div class="wall-table-row table-row-2 item9">random009</div>
+      <div class="wall-table-row table-row-3 item9">10510</div>
+
+      <div class="wall-table-row table-row-1 item10">10</div>
+      <div class="wall-table-row table-row-2 item10">random0010</div>
+      <div class="wall-table-row table-row-3 item10">100</div>
+
+      <div class="wall-table-row table-row-1 item11 user">11</div>
+      <div class="wall-table-row table-row-2 item11 user">Jhony Cash</div>
+      <div class="wall-table-row table-row-3 item11 user">100</div>
+
+
+
+
+
+
+    </section>
+    <script src="scripts/hamburger.js"></script>
+    <script src="scripts/backButton.js"></script>
   </div>
-  <section class="wall-wrapper">
-    <div class="wall-znajomi selected header-left">ZNAJOMI</div>
-    <div class="wall-wszyscy header-right">WSZYSCY</div>
-
-    <div class="wall-bar selected bar-left"></div>
-    <div class="wall-bar bar-right"></div>
-
-    <div class="wall-table-header table-header-1 ">Pozycja</div>
-    <div class="wall-table-header table-header-2 ">Nick</div>
-    <div class="wall-table-header table-header-3 ">Punkty</div>
-
-    <div class="wall-table-row table-row-1 item1">1</div>
-    <div class="wall-table-row table-row-2 item1">random001</div>
-    <div class="wall-table-row table-row-3 item1">1090</div>
-
-    <div class="wall-table-row table-row-1 item2">2</div>
-    <div class="wall-table-row table-row-2 item2">random002</div>
-    <div class="wall-table-row table-row-3 item2">100</div>
-
-    <div class="wall-table-row table-row-1 item3">3</div>
-    <div class="wall-table-row table-row-2 item3">random003</div>
-    <div class="wall-table-row table-row-3 item3">10310</div>
-
-    <div class="wall-table-row table-row-1 item4">4</div>
-    <div class="wall-table-row table-row-2 item4">random004</div>
-    <div class="wall-table-row table-row-3 item4">100</div>
-
-    <div class="wall-table-row table-row-1 item5">5</div>
-    <div class="wall-table-row table-row-2 item5">random005</div>
-    <div class="wall-table-row table-row-3 item5">100</div>
-
-    <div class="wall-table-row table-row-1 item6">6</div>
-    <div class="wall-table-row table-row-2 item6">random006</div>
-    <div class="wall-table-row table-row-3 item6">10554540</div>
-
-    <div class="wall-table-row table-row-1 item7">7</div>
-    <div class="wall-table-row table-row-2 item7">random007</div>
-    <div class="wall-table-row table-row-3 item7">106650</div>
-
-    <div class="wall-table-row table-row-1 item8">8</div>
-    <div class="wall-table-row table-row-2 item8">random008</div>
-    <div class="wall-table-row table-row-3 item8">1655400</div>
-
-    <div class="wall-table-row table-row-1 item9">9</div>
-    <div class="wall-table-row table-row-2 item9">random009</div>
-    <div class="wall-table-row table-row-3 item9">10510</div>
-
-    <div class="wall-table-row table-row-1 item10">10</div>
-    <div class="wall-table-row table-row-2 item10">random0010</div>
-    <div class="wall-table-row table-row-3 item10">100</div>
-
-    <div class="wall-table-row table-row-1 item11 user">11</div>
-    <div class="wall-table-row table-row-2 item11 user">Jhony Cash</div>
-    <div class="wall-table-row table-row-3 item11 user">100</div>
-
-
-
-
-
-
-  </section>
-  <script src="scripts/hamburger.js"></script>
-  <script src="scripts/backButton.js"></script>
 </body>
 </html>
