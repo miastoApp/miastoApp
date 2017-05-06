@@ -27,7 +27,7 @@
 	right: -291.5px;
 	top:0;
 	transition: all 0.3s;
-	z-index: 2000;
+	z-index: 1500;
 }
 
 .menu.open {

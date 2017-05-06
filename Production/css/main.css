@@ -2,8 +2,13 @@ body {
 	background-color: #424242;
 }
 
+iframe {
+	position: absolute;
+	z-index: 10;
+}
+
 .app {
-	background: white url('../img/maps.jpg');
+/*	background: white url('../img/maps.jpg');*/
 	/*display: flex;
 	flex-direction: row-reverse;*/
 	height: 667px;
@@ -25,6 +30,8 @@ body {
 	justify-content: space-between;
 	margin-top: 3rem;
 	padding: 0 2rem;
+	position: relative;
+	z-index: 1000;
 }
 
 .content .nav img {
@@ -44,6 +51,8 @@ body {
 	position: absolute;
 	left: 2.5rem;
 	bottom: 3rem;
+
+	z-index: 1200;
 }
 
 input[type="text"] {
@@ -83,4 +92,6 @@ i.currentLoc {
 	text-align: center;
 	font-size: 7rem;
 	color: #48ae50;
+
+	z-index: 1000;
 }
