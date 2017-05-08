@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+  <meta charset="UTF-8">
+  <title>MiastoAPP - Informacje o wybranym POI</title>
+  <meta name="description" content="Tylko wiarygodne informacje o szukanych przez Ciebie miejscach! Oszczędź swój czas i nerwy!">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="icon" href="#">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body> 
+  
+  <div class="app">    
+    
+    <header class="menu-green top-bar">
+      <a href="#" id="backButton"></a>
+      <h2>Ranking</h2>
+      <button id="hamburger">
+        <span></span>
+      </button>
+    </header>
+
+    <div class="menu-wrapper">
+      <div class="menu" id="menu">
+        <div class="menu-header">
+        <a href="#" class="user-icon" src="" alt=""></a>
+          <div class="user-data">
+            <span class="user-name">JohnRambo</span>
+            <span class="user-score">3756 pkt</span>
+          </div>
+          <div class="hambureger-menu" ></div>
+        </div>
+        <div class="menu-list">
+          <div>
+            <ul>
+              <li><a href="main.html"><i class="fa fa-map-o"></i><span>Mapa</span></a></li>
+              <li><a href="logged.html"><i class="fa fa-user-o"></i><span>Mój Profil</span></a></li>
+              <li><a href="ranking.html"><i class="fa fa-star-o"></i><span>Ranking</span></a></li>
+              <li><a href="#"><i class="fa fa-cogs"></i><span>Ustawienia</span></a></li>
+              <li><a href="terms.html"><i class="fa fa-map-o"></i><span>Informacje</span></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="menu-footer">
+          <button class="btn btn-primary" id="logout" onclick="location.href='login.html'">Wyloguj</button>
+        </div>
+      </div>
+    </div>
+    
+    <div class="tabs">
+      <button class="tab active">Znajomi</button>
+      <button class="tab">Wszyscy</button>
+    </div>
+
+    <section class="wall-wrapper">
+
+      <div class="wall-table-header table-header-1 "><h4>Pozycja</h4></div>
+      <div class="wall-table-header table-header-2 "><h4>Nick</h4></div>
+      <div class="wall-table-header table-header-3 "><h4>Punkty</h4></div>
+
+      <div class="wall-table-row table-row-1 item1">1</div>
+      <div class="wall-table-row table-row-2 item1">random001</div>
+      <div class="wall-table-row table-row-3 item1">9900</div>
+
+      <div class="wall-table-row table-row-1 item2">2</div>
+      <div class="wall-table-row table-row-2 item2">random002</div>
+      <div class="wall-table-row table-row-3 item2">9700</div>
+
+      <div class="wall-table-row table-row-1 item3">3</div>
+      <div class="wall-table-row table-row-2 item3">random003</div>
+      <div class="wall-table-row table-row-3 item3">9100</div>
+
+      <div class="wall-table-row table-row-1 item4">4</div>
+      <div class="wall-table-row table-row-2 item4">random004</div>
+      <div class="wall-table-row table-row-3 item4">8850</div>
+
+      <div class="wall-table-row table-row-1 item5">5</div>
+      <div class="wall-table-row table-row-2 item5">random005</div>
+      <div class="wall-table-row table-row-3 item5">8820</div>
+
+      <div class="wall-table-row table-row-1 item6">6</div>
+      <div class="wall-table-row table-row-2 item6">random006</div>
+      <div class="wall-table-row table-row-3 item6">7580</div>
+
+      <div class="wall-table-row table-row-1 item7">7</div>
+      <div class="wall-table-row table-row-2 item7">random007</div>
+      <div class="wall-table-row table-row-3 item7">6800</div>
+
+      <div class="wall-table-row table-row-1 item8">8</div>
+      <div class="wall-table-row table-row-2 item8">random008</div>
+      <div class="wall-table-row table-row-3 item8">6250</div>
+
+      <div class="wall-table-row table-row-1 item9">9</div>
+      <div class="wall-table-row table-row-2 item9">random009</div>
+      <div class="wall-table-row table-row-3 item9">5500</div>
+
+      <div class="wall-table-row table-row-1 item10">10</div>
+      <div class="wall-table-row table-row-2 item10">random0010</div>
+      <div class="wall-table-row table-row-3 item10">4220</div>
+
+      <div class="wall-table-row table-row-1 item11 user">14</div>
+      <div class="wall-table-row table-row-2 item11 user">JohnRambo</div>
+      <div class="wall-table-row table-row-3 item11 user">3756</div>
+  
+    </section>
+	
+  </div>
+
+  <script src="scripts/hamburger.js"></script>
+  <script src="scripts/backButton.js"></script>
+
+</body>
+</html>

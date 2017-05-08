@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+  <meta charset="UTF-8">
+  <title>MiastoAPP - Ekran główny</title>
+  <meta name="description" content="Tylko wiarygodne informacje o szukanych przez Ciebie miejscach! Oszczędź swój czas i nerwy!">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="icon" href="#">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body> 
+  
+  <div class="app">    
+    
+    <header class="top-bar">
+      <a href="#" id="backButton"></a>
+      <h2>Witaj!</h2>
+      <button id="hamburger">
+        <span></span>
+      </button>
+    </header>
+
+    <div class="menu-wrapper">
+      <div class="menu" id="menu">
+        <div class="menu-header">
+        <a href="#" class="user-icon" src="" alt=""></a>
+          <div class="user-data">
+            <span class="user-name">JohnRambo</span>
+            <span class="user-score">3756 pkt</span>
+          </div>
+          <div class="hambureger-menu" ></div>
+        </div>
+        <div class="menu-list">
+          <div>
+            <ul>
+              <li><a href="main.html"><i class="fa fa-map-o"></i><span>Mapa</span></a></li>
+              <li><a href="logged.html"><i class="fa fa-user-o"></i><span>Mój Profil</span></a></li>
+              <li><a href="ranking.html"><i class="fa fa-star-o"></i><span>Ranking</span></a></li>
+              <li><a href="#"><i class="fa fa-cogs"></i><span>Ustawienia</span></a></li>
+              <li><a href="terms.html"><i class="fa fa-map-o"></i><span>Informacje</span></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="menu-footer">
+          <button class="btn btn-primary" id="logout" onclick="location.href='login.html'">Wyloguj</button>
+        </div>
+      </div>
+    </div>
+
+    <div id="map"></div>
+
+      <div class="nav">
+        <a href="login.html" class="user">
+          <span>zaloguj</span>
+        </a>
+        <a href="addpoi.html" class="map">
+          <span>oznacz</span>
+        </div>
+      </a>
+
+
+    <div id="search">
+      <input id="searchfield" type="text" placeholder="Czego szukasz?">
+      <button id="submit" onclick="location.href='poiinfo.html'">
+        <i class="fa fa-search"></i>
+      </button>
+    </div>
+    
+  </div>
+  
+  <script src="scripts/hamburger.js"></script>
+  <script src="scripts/backButton.js"></script>
+  <script src="scripts/geolocation.js"></script>
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCe09GWhKdw7VzTRh2Ux48aiaT7p1lbCUE&callback=initMap">
+  </script>
+    
+</body>
+</html>

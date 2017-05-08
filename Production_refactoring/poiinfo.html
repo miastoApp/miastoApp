@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+  <meta charset="UTF-8">
+  <title>MiastoAPP - Informacje o wybranym POI</title>
+  <meta name="description" content="Tylko wiarygodne informacje o szukanych przez Ciebie miejscach! Oszczędź swój czas i nerwy!">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="icon" href="#">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body> 
+  
+  <div class="app">    
+    
+    <header class="menu-green top-bar">
+      <a href="#" id="backButton"></a>
+      <h2>Informacje o POI</h2>
+      <button id="hamburger">
+        <span></span>
+      </button>
+    </header>
+
+    <div class="menu-wrapper">
+      <div class="menu" id="menu">
+        <div class="menu-header">
+        <a href="#" class="user-icon" src="" alt=""></a>
+          <div class="user-data">
+            <span class="user-name">JohnRambo</span>
+            <span class="user-score">3756 pkt</span>
+          </div>
+          <div class="hambureger-menu" ></div>
+        </div>
+        <div class="menu-list">
+          <div>
+            <ul>
+              <li><a href="main.html"><i class="fa fa-map-o"></i><span>Mapa</span></a></li>
+              <li><a href="logged.html"><i class="fa fa-user-o"></i><span>Mój Profil</span></a></li>
+              <li><a href="ranking.html"><i class="fa fa-star-o"></i><span>Ranking</span></a></li>
+              <li><a href="#"><i class="fa fa-cogs"></i><span>Ustawienia</span></a></li>
+              <li><a href="terms.html"><i class="fa fa-map-o"></i><span>Informacje</span></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="menu-footer">
+          <button class="btn btn-primary" id="logout" onclick="location.href='login.html'">Wyloguj</button>
+        </div>
+      </div>
+    </div>
+    
+    <section class="poiinfo">
+      <div class="content">
+        <h3>Bankomat ING</h3>
+        <p>ul. Józefa Piłsudskiego 2, 30-698 Kraków</p>
+      </div>
+      <img class="objectimg" src="img/street.jpg" alt="Bankomat ING ul. Józefa Piłsudskiego 2 Kraków"/>
+      <div class="details content">
+        <h4>autentyczność</h4>
+        <div class="bar">
+            <div class="value"></div>
+        </div>
+        <h4>szczegóły</h4>
+        <div class="poiicons">
+            <div class="poiicon">
+              <i class="fa fa-map-marker"></i>
+              <p>1.1 km</p>
+            </div>
+            <div class="poiicon">
+              <i class="fa fa-clock-o"></i>
+              <p>6:00 - 22:00</p>
+            </div>
+            <div class="poiicon">
+              <i class="fa fa-phone"></i>
+              <p>8 min</p>
+            </div>
+        </div>
+	      <a class="btn btn-primary" href="poisuccess.html">Nawiguj</a>  
+      </div>
+	 </section>
+	
+  </div>
+
+  <script src="scripts/hamburger.js"></script>
+  <script src="scripts/backButton.js"></script>
+
+</body>
+</html>
