@@ -39,6 +39,11 @@
 	flex-basis: $percent;
 }
 
+@mixin trans($shorthand) {
+	-webkit-transition: $shorthand;
+	transition: $shorthand;
+}
+
 @mixin rotate($deg) {
 	-webkit-transform: rotate($deg);
   transform: rotate($deg);
@@ -77,18 +82,22 @@ img {
 
 .btn-primary {
 	background-color: $primarycolor;
+	@include trans(all .3s ease-in);
 
 	&:hover {
 		background-color: lighten($primarycolor, 5);
+		@include trans(all .3s ease-in);
 	}
 
 }
 
 .btn-decline {
 	background-color: $thirdcolor;
+	@include trans(all .3s ease-in);
 
 	&:hover {
 		background-color: lighten($thirdcolor, 5);
+		@include trans(all .3s ease-in);
 	}
 
 }
@@ -275,6 +284,7 @@ img {
 				width: 60px;
 				padding: 0 20px 0 20px;
 				text-align: center;
+				color: $primarycolor;
 			}
 
 			a {
@@ -371,9 +381,12 @@ input[type="text"] {
 	padding: 0 20px;
 	border: 2px solid #e6e6e6;
 	border-radius: 50px;
+	@include trans(all .3s ease-in);
 
 	&:focus {
 		outline: none;
+		border-color: $primarycolor;
+		@include trans(all .3s ease-in);
 	}
 
 }
@@ -498,7 +511,6 @@ header {
 	line-height: 8rem;
 	color: #fff;
 	background-color: $primarycolor;
-	background: url('../img/background.jpg') no-repeat center;
 
 	h2 {
 		font-size: 2.2rem;
@@ -542,14 +554,14 @@ header {
 
 		span {
 			position: absolute;
-			font-size: 1.2rem;
-			text-transform: uppercase;
-			bottom: 0;
-			left: 0;
-			padding: 5px 10px;
-			background-color: $primarycolor;
-			border-radius: 20px;
-
+    	font-size: 1.2rem;
+    	text-transform: uppercase;
+   	  bottom: 5px;
+    	left: 10%;
+    	padding: 3px 5px;
+    	background-color: $primarycolor;
+    	border-radius: 15px;
+   	  width: 80%;
 		}
 
 	}
@@ -640,7 +652,6 @@ header {
 	color: #fff;
 	background-color: $primarycolor;
 	border-top: 1px solid darken($primarycolor, 5);
-	background: url('../img/background.jpg') no-repeat center;
 
 	.circleframe {
 		box-shadow: 0 0 20px 10px darken($primarycolor, 5);
@@ -919,7 +930,7 @@ header {
  }
 
  .block-hr .block-content .hours-dropdown select {
-   font-family: 'Montserrat', sans-serif;
+   font-family: $primaryfont;
    background-color: transparent;
    border: none;
    outline: none;
