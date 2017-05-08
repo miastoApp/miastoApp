@@ -125,6 +125,7 @@ img {
 
 #hamburger {
 	position: relative;
+	z-index: 1600;
 	width: 80px;
 
 	span {
@@ -370,6 +371,11 @@ input[type="text"] {
 	padding: 0 20px;
 	border: 2px solid #e6e6e6;
 	border-radius: 50px;
+
+	&:focus {
+		outline: none;
+	}
+
 }
 
 label {
@@ -442,7 +448,7 @@ body {
 
 	&.whitelogo {
 		height: 100%;
-		width: 120px;
+		width: 250px;
 		background-image: url('../img/logo_white.svg');
 	}
 
@@ -492,6 +498,7 @@ header {
 	line-height: 8rem;
 	color: #fff;
 	background-color: $primarycolor;
+	background: url('../img/background.jpg') no-repeat center;
 
 	h2 {
 		font-size: 2.2rem;
@@ -633,6 +640,7 @@ header {
 	color: #fff;
 	background-color: $primarycolor;
 	border-top: 1px solid darken($primarycolor, 5);
+	background: url('../img/background.jpg') no-repeat center;
 
 	.circleframe {
 		box-shadow: 0 0 20px 10px darken($primarycolor, 5);
@@ -921,4 +929,10 @@ header {
  .block-hr .block-content .hours-dropdown select:focus {
  	 border: none;
    outline: none; 
+ }
+
+ /***** splash *****/
+
+ #splash {
+ 	background: url('../img/background.jpg') no-repeat center;
  }
