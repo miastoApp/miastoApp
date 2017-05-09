@@ -24,7 +24,7 @@
     <div class="menu-wrapper">
       <div class="menu" id="menu">
         <div class="menu-header">
-        <a href="login.html" class="user-icon" src="" alt=""></a>
+        <a href="login.html" class="user-icon"></a>
           <div class="user-data">
             <span class="user-name">JohnRambo</span>
             <span class="user-score">3756 pkt</span>
@@ -49,17 +49,16 @@
     </div>
     
     <section class="poiinfo">
-      <div class="content">
-        <h3>Bankomat ING</h3>
-        <p>ul. Józefa Piłsudskiego 2, 30-698 Kraków</p>
-      </div>
-      <img class="objectimg" src="img/street.jpg" alt="Bankomat ING ul. Józefa Piłsudskiego 2 Kraków"/>
-      <div class="details content">
-        <h4>autentyczność</h4>
-        <div class="bar">
-            <div class="value"></div>
+      <div class="poiaddress">
+        <div class="content">
+          <h3>Bankomat ING</h3>
+          <p>ul. Józefa Piłsudskiego 2, 30-698 Kraków</p>
         </div>
-        <h4>szczegóły</h4>
+        <div class="objectimg">
+          <img src="img/street.jpg" alt="Bankomat ING ul. Józefa Piłsudskiego 2 Kraków"/>
+        </div>
+      </div>
+      <div class="details content">
         <div class="poiicons">
             <div class="poiicon">
               <i class="fa fa-map-marker"></i>
@@ -74,10 +73,16 @@
               <p>8 min</p>
             </div>
         </div>
-	      <a class="btn btn-primary" href="poisuccess.html">Nawiguj</a>  
+        <div class="progress">
+        <h4>autentyczność<span>75%</span></h4>
+          <div class="bar">
+              <div class="value"></div>
+          </div>
+        </div>
+        <a class="btn btn-primary" href="poisuccess.html">Nawiguj</a>  
       </div>
-	 </section>
-	
+   </section>
+  
   </div>
 
   <script src="scripts/hamburger.js"></script>

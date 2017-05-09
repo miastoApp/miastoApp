@@ -1,0 +1,56 @@
+/*** MIXINS ***/
+
+/* flexbox */
+
+@mixin dflex {
+	display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@mixin flexflow($dir, $wrap) {
+  -ms-flex-flow: $dir $wrap;
+  flex-flow: $dir $wrap;
+}
+
+@mixin justifycontent($value) {
+	-webkit-box-pack: $value;
+  -ms-flex-pack: $value;
+  justify-content: $value;
+}
+
+@mixin alignitems($value) {
+	-webkit-box-align: $value;
+  -ms-flex-align: $value;
+  align-items: $value;
+}
+
+@mixin flexbasis($percent) {
+	-ms-flex-preferred-size: $percent;
+  flex-basis: $percent;
+}
+
+@mixin flexgrow($value) {
+  -webkit-box-flex: $value;
+  -ms-flex-positive: $value;
+  flex-grow: $value;	
+}
+
+@mixin flexbasis($percent) {
+	-ms-flex-preferred-size: $percent;
+	flex-basis: $percent;
+}
+
+/* transitions shorthand */
+
+@mixin trans($shorthand) {
+	-webkit-transition: $shorthand;
+	transition: $shorthand;
+}
+
+/* transforms */
+
+@mixin rotate($deg) {
+	-webkit-transform: rotate($deg);
+  transform: rotate($deg);
+}
