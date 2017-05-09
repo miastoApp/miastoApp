@@ -13,6 +13,6 @@
             window.history.back();
         }, false);
     } else {
-        backHref.setAttribute('href', 'main.html');
+        backHref.setAttribute('href', 'index.html');
     }
 })();
