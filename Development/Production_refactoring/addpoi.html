@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+  <meta charset="UTF-8">
+  <title>MiastoAPP - Informacje o wybranym POI</title>
+  <meta name="description" content="Tylko wiarygodne informacje o szukanych przez Ciebie miejscach! Oszczędź swój czas i nerwy!">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="icon" href="#">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body> 
+  
+  <div class="app">    
+    
+    <header class="menu-green top-bar">
+      <a href="#" id="backButton"></a>
+      <h2>Dodaj obiekt</h2>
+      <button id="hamburger">
+        <span></span>
+      </button>
+    </header>
+
+    <div class="menu-wrapper">
+      <div class="menu" id="menu">
+        <div class="menu-header">
+        <a href="login.html" class="user-icon" src="" alt=""></a>
+          <div class="user-data">
+            <span class="user-name">JohnRambo</span>
+            <span class="user-score">3756 pkt</span>
+          </div>
+          <div class="hambureger-menu" ></div>
+        </div>
+        <div class="menu-list">
+          <div>
+            <ul>
+              <li><a href="main.html"><i class="fa fa-map-o"></i><span>Mapa</span></a></li>
+              <li><a href="logged.html"><i class="fa fa-user-o"></i><span>Mój Profil</span></a></li>
+              <li><a href="ranking.html"><i class="fa fa-star-o"></i><span>Ranking</span></a></li>
+              <li><a href="#"><i class="fa fa-cogs"></i><span>Ustawienia</span></a></li>
+              <li><a href="terms.html"><i class="fa fa-map-o"></i><span>Informacje</span></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="menu-footer">
+          <button class="btn btn-primary" id="logout" onclick="location.href='login.html'">Wyloguj</button>
+        </div>
+      </div>
+    </div>
+    
+<section class="content block-input">
+        <div class="block-content">
+          <label for="nazwa">Nazwa punktu</label>
+          <input type="text" name="nazwa" id="nazwa" placeholder="np. Apteka, bankomat" required>
+        </div>
+
+        <div class="block-content">
+          <label for="adres">Adres punktu</label>
+          <input type="text" name="adres" id="adres" placeholder="Podaj dokładny adres" required>
+        </div>
+
+      <section class="block-hr">
+        <h4>Godziny otwarcia</h4>
+        <div class="block-content">
+          <div class="day">
+            Poniedziałek
+          </div>
+          <div class="hours">
+            <div class="hours-dropdown">
+              <select name="pn-hr" id="pn-hr">
+                <option value="1">01:00</option>
+                <option value="2">02:00</option>
+                <option value="3">03:00</option>
+                <option value="4">04:00</option>
+                <option value="5">05:00</option>
+                <option value="6">06:00</option>
+                <option value="7">07:00</option>
+                <option value="8">08:00</option>
+                <option value="9">09:00</option>
+                <option value="10">10:00</option>
+                <option value="11">11:00</option>
+                <option value="12">12:00</option>
+              </select>
+            </div>
+            <div class="hours-bar"></div>
+            <div class="hours-dropdown">
+              <select name="pn-hr" id="pn-hr">
+                <option value="1">01:00</option>
+                <option value="2">02:00</option>
+                <option value="3">03:00</option>
+                <option value="4">04:00</option>
+                <option value="5">05:00</option>
+                <option value="6">06:00</option>
+                <option value="7">07:00</option>
+                <option value="8">08:00</option>
+                <option value="9">09:00</option>
+                <option value="10">10:00</option>
+                <option value="11">11:00</option>
+                <option value="12">12:00</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <div class="block-content">
+          <div class="day">
+            Wtorek
+          </div>
+          <div class="hours">
+            <div class="hours-dropdown">
+              <select name="pn-hr" id="pn-hr">
+                <option value="1">01:00</option>
+                <option value="2">02:00</option>
+                <option value="3">03:00</option>
+                <option value="4">04:00</option>
+                <option value="5">05:00</option>
+                <option value="6">06:00</option>
+                <option value="7">07:00</option>
+                <option value="8">08:00</option>
+                <option value="9">09:00</option>
+                <option value="10">10:00</option>
+                <option value="11">11:00</option>
+                <option value="12">12:00</option>
+              </select>
+            </div>
+            <div class="hours-bar"></div>
+            <div class="hours-dropdown">
+              <select name="pn-hr" id="pn-hr">
+                <option value="1">01:00</option>
+                <option value="2">02:00</option>
+                <option value="3">03:00</option>
+                <option value="4">04:00</option>
+                <option value="5">05:00</option>
+                <option value="6">06:00</option>
+                <option value="7">07:00</option>
+                <option value="8">08:00</option>
+                <option value="9">09:00</option>
+                <option value="10">10:00</option>
+                <option value="11">11:00</option>
+                <option value="12">12:00</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <div class="block-content">
+          <div class="day">
+            Środa
+          </div>
+          <div class="hours">
+            <div class="hours-dropdown">
+              <select name="pn-hr" id="pn-hr">
+                <option value="1">01:00</option>
+                <option value="2">02:00</option>
+                <option value="3">03:00</option>
+                <option value="4">04:00</option>
+                <option value="5">05:00</option>
+                <option value="6">06:00</option>
+                <option value="7">07:00</option>
+                <option value="8">08:00</option>
+                <option value="9">09:00</option>
+                <option value="10">10:00</option>
+                <option value="11">11:00</option>
+                <option value="12">12:00</option>
+              </select>
+            </div>
+            <div class="hours-bar"></div>
+            <div class="hours-dropdown">
+              <select name="pn-hr" id="pn-hr">
+                <option value="1">01:00</option>
+                <option value="2">02:00</option>
+                <option value="3">03:00</option>
+                <option value="4">04:00</option>
+                <option value="5">05:00</option>
+                <option value="6">06:00</option>
+                <option value="7">07:00</option>
+                <option value="8">08:00</option>
+                <option value="9">09:00</option>
+                <option value="10">10:00</option>
+                <option value="11">11:00</option>
+                <option value="12">12:00</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <div class="block-content">
+          <div class="day">
+            Czwartek
+          </div>
+          <div class="hours">
+            <div class="hours-dropdown">
+              <select name="pn-hr" id="pn-hr">
+                <option value="1">01:00</option>
+                <option value="2">02:00</option>
+                <option value="3">03:00</option>
+                <option value="4">04:00</option>
+                <option value="5">05:00</option>
+                <option value="6">06:00</option>
+                <option value="7">07:00</option>
+                <option value="8">08:00</option>
+                <option value="9">09:00</option>
+                <option value="10">10:00</option>
+                <option value="11">11:00</option>
+                <option value="12">12:00</option>
+              </select>
+            </div>
+            <div class="hours-bar"></div>
+            <div class="hours-dropdown">
+              <select name="pn-hr" id="pn-hr">
+                <option value="1">01:00</option>
+                <option value="2">02:00</option>
+                <option value="3">03:00</option>
+                <option value="4">04:00</option>
+                <option value="5">05:00</option>
+                <option value="6">06:00</option>
+                <option value="7">07:00</option>
+                <option value="8">08:00</option>
+                <option value="9">09:00</option>
+                <option value="10">10:00</option>
+                <option value="11">11:00</option>
+                <option value="12">12:00</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <div class="block-content">
+          <div class="day">
+            Piątek
+          </div>
+          <div class="hours">
+            <div class="hours-dropdown">
+              <select name="pn-hr" id="pn-hr">
+                <option value="1">01:00</option>
+                <option value="2">02:00</option>
+                <option value="3">03:00</option>
+                <option value="4">04:00</option>
+                <option value="5">05:00</option>
+                <option value="6">06:00</option>
+                <option value="7">07:00</option>
+                <option value="8">08:00</option>
+                <option value="9">09:00</option>
+                <option value="10">10:00</option>
+                <option value="11">11:00</option>
+                <option value="12">12:00</option>
+              </select>
+            </div>
+            <div class="hours-bar"></div>
+            <div class="hours-dropdown">
+              <select name="pn-hr" id="pn-hr">
+                <option value="1">01:00</option>
+                <option value="2">02:00</option>
+                <option value="3">03:00</option>
+                <option value="4">04:00</option>
+                <option value="5">05:00</option>
+                <option value="6">06:00</option>
+                <option value="7">07:00</option>
+                <option value="8">08:00</option>
+                <option value="9">09:00</option>
+                <option value="10">10:00</option>
+                <option value="11">11:00</option>
+                <option value="12">12:00</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <div class="block-content">
+          <div class="day">
+            Sobota
+          </div>
+          <div class="hours">
+            <div class="hours-dropdown">
+              <select name="pn-hr" id="pn-hr">
+                <option value="1">01:00</option>
+                <option value="2">02:00</option>
+                <option value="3">03:00</option>
+                <option value="4">04:00</option>
+                <option value="5">05:00</option>
+                <option value="6">06:00</option>
+                <option value="7">07:00</option>
+                <option value="8">08:00</option>
+                <option value="9">09:00</option>
+                <option value="10">10:00</option>
+                <option value="11">11:00</option>
+                <option value="12">12:00</option>
+              </select>
+            </div>
+            <div class="hours-bar"></div>
+            <div class="hours-dropdown">
+              <select name="pn-hr" id="pn-hr">
+                <option value="1">01:00</option>
+                <option value="2">02:00</option>
+                <option value="3">03:00</option>
+                <option value="4">04:00</option>
+                <option value="5">05:00</option>
+                <option value="6">06:00</option>
+                <option value="7">07:00</option>
+                <option value="8">08:00</option>
+                <option value="9">09:00</option>
+                <option value="10">10:00</option>
+                <option value="11">11:00</option>
+                <option value="12">12:00</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <div class="block-content">
+          <div class="day">
+          Niedziela
+          </div>
+          <div class="hours">
+            <div class="hours-dropdown">
+              <select name="pn-hr" id="pn-hr">
+                <option value="1">01:00</option>
+                <option value="2">02:00</option>
+                <option value="3">03:00</option>
+                <option value="4">04:00</option>
+                <option value="5">05:00</option>
+                <option value="6">06:00</option>
+                <option value="7">07:00</option>
+                <option value="8">08:00</option>
+                <option value="9">09:00</option>
+                <option value="10">10:00</option>
+                <option value="11">11:00</option>
+                <option value="12">12:00</option>
+              </select>
+            </div>
+            <div class="hours-bar"></div>
+            <div class="hours-dropdown">
+              <select name="pn-hr" id="pn-hr">
+                <option value="1">01:00</option>
+                <option value="2">02:00</option>
+                <option value="3">03:00</option>
+                <option value="4">04:00</option>
+                <option value="5">05:00</option>
+                <option value="6">06:00</option>
+                <option value="7">07:00</option>
+                <option value="8">08:00</option>
+                <option value="9">09:00</option>
+                <option value="10">10:00</option>
+                <option value="11">11:00</option>
+                <option value="12">12:00</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        </section>
+
+        <a class="btn btn-primary" href="main.html">Dodaj punkt</a>
+      
+      </section>
+  
+  </div>
+
+  <script src="scripts/hamburger.js"></script>
+  <script src="scripts/backButton.js"></script>
+
+</body>
+</html>
+
+
+      

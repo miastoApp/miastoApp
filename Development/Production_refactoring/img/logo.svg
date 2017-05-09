@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW X7 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="911px" height="122px" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 911 121"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .fil1 {fill:#26B36A}
+    .fil0 {fill:#2B2B2B}
+   ]]>
+  </style>
+ </defs>
+ <g id="Warstwa_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <polygon class="fil0" points="90,119 90,47 57,78 23,47 23,119 0,119 0,2 8,2 57,46 105,2 113,2 113,119 90,119 "/>
+  <polygon class="fil0" points="143,119 143,2 167,2 167,119 "/>
+  <path class="fil0" d="M269 97l-49 0 -11 22 -26 0 60 -117 7 0 55 117 -26 0 -10 -22zm-11 -23l-12 -26 -14 26 26 0 0 0z"/>
+  <path class="fil0" d="M347 69c-4,-1 -11,-2 -18,-7 -9,-6 -14,-15 -15,-26 0,-9 3,-18 9,-24 8,-9 21,-11 27,-11 17,0 26,6 35,11l3 3 -12 19 -4 -2c-7,-5 -12,-8 -22,-8 -2,0 -8,1 -11,4 -1,1 -2,3 -2,7 1,6 5,9 15,12 2,0 3,0 4,1 11,4 19,9 25,15 6,7 10,15 10,23 0,8 -4,17 -10,23 -7,8 -16,12 -26,12 -6,0 -13,0 -21,-3 -10,-3 -20,-9 -28,-17l17 -16c13,13 26,13 32,13 9,0 12,-9 12,-12 0,-6 -7,-12 -19,-16l0 -1 -1 0z"/>
+  <polygon class="fil0" points="490,2 490,26 457,26 457,119 434,119 434,26 402,26 402,2 "/>
+  <path class="fil0" d="M699 77l-48 0 -16 42 -10 0 48 -119 5 0 47 119 -9 0 -17 -42zm-45 -8l43 0 -17 -42c-1,-4 -2,-8 -4,-14 -2,5 -3,10 -5,14l-17 42z"/>
+  <path class="fil0" d="M814 34c0,12 -4,20 -12,27 -8,6 -19,9 -33,9l-19 0 0 49 -8 0 0 -119 29 0c28,0 43,11 43,34zm-64 29l17 0c13,0 23,-3 29,-7 6,-4 9,-12 9,-22 0,-9 -3,-15 -9,-20 -5,-4 -14,-7 -26,-7l-20 0 0 56 0 0z"/>
+  <path class="fil0" d="M911 34c0,12 -4,20 -12,27 -7,6 -19,9 -33,9l-18 0 0 49 -8 0 0 -119 29 0c28,0 42,11 42,34zm-63 29l16 0c13,0 23,-3 29,-7 6,-4 9,-12 9,-22 0,-9 -3,-15 -9,-20 -5,-4 -14,-7 -26,-7l-19 0 0 56 0 0z"/>
+  <path class="fil1" d="M556 121c33,0 60,-27 60,-61 0,-33 -27,-60 -60,-60 -33,0 -60,27 -60,60 0,34 27,61 60,61zm36 -61c0,21 -16,37 -36,37 -20,0 -37,-16 -37,-37 0,-20 17,-36 37,-36 20,0 36,16 36,36z"/>
+  <path class="fil1" d="M556 76c9,0 15,-7 15,-16 0,-9 -6,-15 -15,-15 -9,0 -16,6 -16,15 0,9 7,16 16,16z"/>
+ </g>
+</svg>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+  <meta charset="UTF-8">
+  <title>MiastoAPP - Informacje o wybranym POI</title>
+  <meta name="description" content="Tylko wiarygodne informacje o szukanych przez Ciebie miejscach! Oszczędź swój czas i nerwy!">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="icon" href="#">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body> 
+  
+  <div class="app">    
+    
+    <header class="menu-green top-bar">
+      <a href="#" id="backButton"></a>
+      <h2>Zalogowany</h2>
+      <button id="hamburger">
+        <span></span>
+      </button>
+    </header>
+
+    <div class="menu-wrapper">
+      <div class="menu" id="menu">
+        <div class="menu-header">
+        <a href="logged.html" class="user-icon" src="" alt=""></a>
+          <div class="user-data">
+            <span class="user-name">JohnRambo</span>
+            <span class="user-score">3756 pkt</span>
+          </div>
+          <div class="hambureger-menu" ></div>
+        </div>
+        <div class="menu-list">
+          <div>
+            <ul>
+              <li><a href="main.html"><i class="fa fa-map-o"></i><span>Mapa</span></a></li>
+              <li><a href="logged.html"><i class="fa fa-user-o"></i><span>Mój Profil</span></a></li>
+              <li><a href="ranking.html"><i class="fa fa-star-o"></i><span>Ranking</span></a></li>
+              <li><a href="#"><i class="fa fa-cogs"></i><span>Ustawienia</span></a></li>
+              <li><a href="terms.html"><i class="fa fa-map-o"></i><span>Informacje</span></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="menu-footer">
+          <button class="btn btn-primary" id="logout" onclick="location.href='login.html'">Wyloguj</button>
+        </div>
+      </div>
+    </div>
+    
+    <section class="content centercontent logged">
+      <div class="circleframe">
+        <img class="objectimg" src="img/logged.jpg" alt="Bankomat ING ul. Józefa Piłsudskiego 2 Kraków"/>
+      </div>
+      <h2 class="bigfont">JohnRambo</h2>
+      <div class="rank">
+        <h4 class="textcenter">twoja ranga</h4>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star-half-o"></i>
+        <i class="fa fa-star-o"></i>
+      </div>
+      <a class="btn btn-primary" href="ranking.html">Tablica wyników</a>  
+    </section>
+	
+  </div>
+
+  <script src="scripts/hamburger.js"></script>
+  <script src="scripts/backButton.js"></script>
+
+</body>
+</html>
